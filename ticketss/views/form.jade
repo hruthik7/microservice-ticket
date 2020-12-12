@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1  booking info
+  form(action='users/process' method='POST')  
+    |Name: 
+    input(type='text' name='name')    
+    br
+    |from: 
+    input(type='text' name='from')    
+    br
+    |to: 
+    input(type='text' name='to')    
+    br
+    input(type='submit' value='Submit')
+
+  
+
